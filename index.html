@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>VoiceFilter Implementation</title>
+  <link rel="stylesheet" type="text/css" href="./resources/stylesheet.css">
+</head>
+
+<body>
+  <div>
+  	<p><b>Implementation link:</b> <a href="https://github.com/mindslab-ai/voicefilter">GitHub</a></p>
+  	<p><b>Original Paper:</b> <a href="https://arxiv.org/abs/1810.04826">arXiv</a></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Input 1: Mixed audio</th>
+          <th>Input 2: Reference audio for d-vector</th>
+          <th>Result: Estimated audio</th>
+          <th>Ground truth</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="audios/mixed.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="audios/ref-voice.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="audios/estimated.wav" type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata">
+              <source src="audios/target.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>All details are shown in GitHub repository's README. Thank you!</p>
+  </div>
+</body>
+
+</html>
